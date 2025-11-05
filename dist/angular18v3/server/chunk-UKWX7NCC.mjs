@@ -1,0 +1,2 @@
+import './polyfills.server.mjs';
+import{J as i,wa as o}from"./chunk-VU6LYGKC.mjs";var s=class t{_token=o(null);_logged=o(!1);login(n,e){n==="admin"&&e==="admin"&&(this._token.set("fake-token-123"),this._logged.set(!0))}logout(){this._token.set(null),this._logged.set(!1)}token=this._token.asReadonly();isLoggedIn=this._logged.asReadonly();static \u0275fac=function(e){return new(e||t)};static \u0275prov=i({token:t,factory:t.\u0275fac,providedIn:"root"})};export{s as a};
